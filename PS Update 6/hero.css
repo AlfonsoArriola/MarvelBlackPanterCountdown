@@ -1,5 +1,10 @@
 body, html {
     height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* The side navigation menu */
@@ -47,38 +52,24 @@ body, html {
 }
 
 
-
-/* The hero image */
 .hero-image {
-    /* The image used */
     background-image: url("images/hand-creative-light-glowing-technology-white-648795-pxhere.com.jpg");
-
-    /* Set a specific height */
     height: 100%;
-
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-
-.NPHeroImage {
-    /* The image used */
-    background-image: url("images/fixedneonheart.jpg");
-
-    /* Set a specific height */
+#navHomeButton{
+    font-size: 1.8rem;
+    color: powderblue;
     
-    height: 100vh;
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    text-shadow: 0 0 3px black;
 }
-/* Place text in the middle of the image */
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -89,12 +80,186 @@ body, html {
     text-shadow: 0 0 3px #87e1ff;
 }
 
+
+.npparallax1{
+    background-image: url("images/loves-neon-white.jpg");
+   /* background-image: url("images/neonredheart.jpg");*/
+    min-height: 40rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.npparallax2{
+    background-image: url("images/Kiluanji Kia Henda_Champion.jpg");
+    min-height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.npJob{
+    margin: 3em 2rem 4rem 2rem;
+}
+
+#npHeader{
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    text-decoration: black;
+    margin: 3rem 2rem 3rem 2rem;
+     }
+#npHeaderV{
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    text-decoration: black;
+    margin: 3rem 2rem 3rem 2rem;
+     }
+
+
+.np-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-shadow: 0 0 3px #b76e79;
+}
+
+.picRow{
+    display: inline-block;
+    margin: .5rem 3rem 3rem 3rem;
+
+   
+}
+
+.picRow img{
+    width: 10rem;
+    border-radius: 50px;
+    padding: 2rem 1rem 2rem 1rem;
+
+}
+
+
+
+.codingHero {
+    background-image: url("images/man-light-technology-standing-red-symbol-743613-pxhere.com.jpg"); 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#codeNavButton{
+    font-size: 1.8rem;
+    color: powderblue;
+    
+    text-shadow: 0 0 3px black;
+}
+
+.code-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 3px red;
+}
+
+.c_parallax1{
+    background-image: url("images/ideabulb.jpg");
+   /* background-image: url("images/neonredheart.jpg");*/
+    min-height: 40rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    margin: 8px-16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+.bouncerHero {
+    background-image: url("images/RRreflect.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutHeroImage {
+    background-image: url("images/goldbulb.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
 
-.container{
-    padding: 3rem 3rem 3rem 3rem;
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
 
