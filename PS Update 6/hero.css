@@ -7,8 +7,6 @@ body, html {
     box-sizing: border-box;
 }
 
-
-
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -53,13 +51,9 @@ body, html {
     padding: 20px;
 }
 
-li{
-    line-height: 2rem;
-}
-
 
 .hero-image {
-    background-image: url("images/cheek.jpg");
+    background-image: url("images/hand-creative-light-glowing-technology-white-648795-pxhere.com.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,12 +66,8 @@ li{
 #navHomeButton{
     font-size: 1.8rem;
     color: powderblue;
-    position: fixed;
+    
     text-shadow: 0 0 3px black;
-    border: .17rem solid #f4425c;
-    padding: .70rem;
-    border-radius: 200px;
-    margin: 2rem;
 }
 
 .hero-text {
@@ -88,22 +78,6 @@ li{
     transform: translate(-50%, -50%);
     color: black;
     text-shadow: 0 0 3px #87e1ff;
-}
-
-.hero-text h1 {
-    font-size: 4rem;
-}
-
-#npNavButton{
-    font-size: 1.8rem;
-    color: powderblue;
-    position: fixed;
-    text-shadow: 0 0 3px black;
-    border: .17rem solid #f4425c;
-    padding: .70rem;
-    border-radius: 200px;
-    margin: 2rem;
-
 }
 
 
@@ -134,27 +108,13 @@ li{
     margin: 3em 2rem 4rem 2rem;
 }
 
-.npJob ol{
-    line-height: 1.6em;
-
-}
-
 #npHeader{
     text-align: center;
-    color: #2537c4;
-    font-size: 2rem;
+    color: blue;
+    font-size: 3rem;
     text-decoration: black;
-    margin: 3rem 2rem 6rem 2rem;
-    padding: 2rem 4.4rem .5rem 4.4rem;
-   
+    margin: 3rem 2rem 3rem 2rem;
      }
-
-#npHeaderPara{
-color:black;
-font-size: 1.5rem;
-text-align: left;
-text-indent: 2rem;
-}
 #npHeaderV{
     text-align: center;
     color: blue;
@@ -217,7 +177,7 @@ text-indent: 2rem;
 }
 
 .c_parallax1{
-    background-image: url("images/ideabulb2.jpg");
+    background-image: url("images/ideabulb.jpg");
    /* background-image: url("images/neonredheart.jpg");*/
     min-height: 40rem;
     background-attachment: fixed;
@@ -262,7 +222,16 @@ text-indent: 2rem;
 
 
 .bouncerHero {
-    background-image: url("images/refinery-rooftop-gallery-5.jpg");
+    background-image: url("images/RRreflect.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutHeroImage {
+    background-image: url("images/goldbulb.jpeg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -271,213 +240,13 @@ text-indent: 2rem;
 }
 
 
-.aboutparallax1{
-    background-image: url("images/creative-light-glowing-technology-glass-wire-1168775-pxhere.com.jpg");
-   /* background-image: url("images/neonredheart.jpg");*/
-    min-height: 30rem;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.b_column{
-    float: left;
-    padding: 10px;
-    height: 300px;
-}
-
-
-
-.west{
-width: 60%;
-height: 30rem;
-}
-
-.east{
-width: 40%;
-padding-left: 7rem;
-
-height: 30rem;
-}
-
-.b_row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#b_profile img{
-    height: 20rem;
-    display: block;
-    
-    
-    margin-top: 11rem;
-    border-radius: 50%;
-    border: .25rem solid #CCCCFF;
-    
-}
-
-#Security{
-  padding: 1.8em .8em ;
-  color: gold;
-
-}
-
-#securityTitle {
- /* text-align: center;*/
-  color: #0099cc;
-
-  text-decoration: underline;
-  text-decoration-color: gold;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 3em;
-}
-
-#b_text{
-    color: gold;
-}
-.containerk {
-  width: 80%;
-}
-
-.skills {
-  text-align: right;
-  padding-right: 1.25rem;
-  line-height: 4rem;
-  color: black;
-}
-
-.military {
-  width: 80%; background-color: #49bc98;
--moz-animation: military 3s ease-out;
-    -webkit-animation: military 3s ease-out;
-}
-.uas {
-  width: 50%; background-color: #2196F3;
-  -moz-animation: uas 2.5s ease-out;
-    -webkit-animation: uas 2.5s ease-out;
-}
-
-
-.Infantry {
-  width: 35%; background-color: #3fcbea;
-  -moz-animation: Infantry 2s ease-out;
-    -webkit-animation: Infantry 2s ease-out;
-}
-
-@-moz-keyframes military {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 80%;
-    };
-}
-
-@-moz-keyframes uas {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 50%;
-    };
-}
-
-@-moz-keyframes Infantry {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 35%;
-    };
-}
-
-@-webkit-keyframes military {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 80%;
-    };
-}
-
-@-webkit-keyframes uas {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 50%;
-    };
-}
-
-@-webkit-keyframes Infantry {
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 35%;
-    };
-}
-
-.wrap {
-    text-align: center;
-}
-
-a {
-    -webkit-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-    -moz-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-    -ms-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-    -o-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-    transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-    display: block;
-    margin: 1.25rem auto;
-    max-width: 11.25rem;
-    text-decoration: none;
-    border-radius: .25rem;
-    padding: 1.25rem 1.875rem;
-}
-
-a.button {
-    color: rgba(30, 22, 54, 0.6);
-    box-shadow: rgba(30, 22, 54, 0.4) 0 0rem 0rem 125rem inset;
-}
-
-a.button:hover {
-    color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(30, 22, 54, 0.7) 0 0rem 0rem 2.5rem inset;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
 
 @media (max-width: 600px) {
-    .b_column {
+    .column {
         width: 100%;
     }
 }
