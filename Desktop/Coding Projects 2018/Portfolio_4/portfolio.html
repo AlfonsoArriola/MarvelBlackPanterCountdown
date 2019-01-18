@@ -1,0 +1,320 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Alfonso Arriola: Portfolio</title>
+    <link rel="canonical" href="http://alfonsoarriola.com/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Sail|Simonetta" rel="stylesheet">
+    <meta name="keywords" content=" software-engineer, fullstack-engineer, web-developer, junior-web-developer, alfonso-arriola, Ruby, Rails, ruby-on-rails">
+    <meta name="description" content="Software Engineer Fullstack Developer Portfolio Site">
+    <meta name="author" content="Alfonso Arriola">
+    <link rel="shortcut icon" type="image/png" href="images/planet.png"/>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+
+     <style amp-custom>
+        /* any custom style goes here */
+        body {
+        margin: 0 auto;
+        background: #000c1e;
+        background-image: url(https://media.giphy.com/media/Duje19Z87RQYw/giphy.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        }
+        amp-sidebar{
+          background:rgba(255,255,255, 0.3);
+          color: white;
+          width: 23%;
+        }
+
+        .p_blurb{
+          text-align: center;
+          width: 100%;
+        }
+
+        h1{
+          padding: .4rem .3rem;
+          margin: 3rem;
+          background: white;
+          color: black;
+          mix-blend-mode:screen;
+          font-size: 10em;
+          border-radius: 7px;
+          line-height: .9;
+          font-family: 'Sail', cursive;
+        }
+
+        h2{
+          fill: #fcfaed;
+          color: #fcfaed;
+          text-shadow: 0 0 5px grey, 0 0 10px grey, 0 0 20px grey, 0 0 30px grey, 0 0 40px grey, 0 0 55px grey, 0 0 75px grey;
+          font-size: 3em;
+        }
+
+        h3{
+          color: white;
+          text-align: center;
+        }
+
+        button{
+          width: 5rem;
+          height: 5rem;
+          margin: 2rem;
+          border-radius: 10%;
+          background:rgba(255,255,255, 0.3);
+          font-family: 'Simonetta', cursive;
+          font-size: 1.5em;
+          font-weight: 1000;
+          fill: white;
+          color: #fff;
+          text-shadow: 0 0 5px coral, 0 0 10px coral, 0 0 20px coral, 0 0 30px white, 0 0 40px coral, 0 0 55px coral, 0 0 75px coral;
+        }
+
+        .nav_button{
+          float: left;
+          position: absolute;
+        }
+
+        ul{
+          list-style-type: none;
+          color: white;
+          font-size: 2em;
+        }
+        li{
+          margin: 2rem 0rem;
+        }
+        a{
+          text-decoration: none;
+          fill: white;
+          color: #fff;
+          text-shadow: 0 0 5px coral, 0 0 10px coral, 0 0 20px coral, 0 0 30px white, 0 0 40px coral, 0 0 55px coral, 0 0 75px coral;
+        }
+        .container{
+          width: 100%;
+          padding: 0 3rem;
+        }
+        .gallery{
+          margin: 10rem;
+          width: 44%;
+          float: 
+        }
+
+        .carousel{
+          color: #fbfced;
+         
+        }
+
+        .carousel ul{
+          color:black;
+          font-size: 1em;
+          margin: 0rem;
+        }
+
+        .carousel a{
+          margin: 2rem 1rem;
+           font-size: 3.5em;
+        }
+        .carousel h2{
+          font-size: 4em;
+        }
+
+        .carousel p{
+          font-size: 2.3em;
+        }
+
+
+
+        .site{
+          float: left;
+        }
+
+        .git{
+          float: right;
+        }
+
+          @media screen and (max-width: 700px) {
+
+          .hero{
+            margin: 0;
+          }
+
+          h1{
+            font-size: 7em;
+          }
+
+           ul{
+          list-style-type: none;
+          color: white;
+          font-size: 1.3em;
+          }
+
+
+
+          @media screen and (max-width: 700px) {
+          .container{
+     
+          padding: 0rem;
+        }
+          .gallery{
+            width: 100%;
+             margin: 0rem;
+          }
+
+          amp-sidebar{
+          
+          width: 40%;
+        }
+
+
+         .nav_button{  
+          position: relative;
+        }
+      }
+
+
+   
+      
+
+      </style>
+      
+  </head>
+  <body>
+    <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+      <ul>   
+        <li><a href="index.html" > Home</a></li> 
+        <li><a href="about.html" >Contact</a></li>
+      </ul>
+    </amp-sidebar>
+     <div class="nav_button">
+        <button on='tap:sidebar1.toggle'> Hi!</button>
+     </div>
+
+     <div class="container">
+        <div class="p_blurb">
+          <h2> Portfolio</h2>
+          <amp-carousel controls
+            width="400"
+            height="100">
+            <amp-img src="images/freshcity.jpg"
+              width="100"
+              height="75"
+              role="button"
+              tabindex="0"
+              [class]="selectedSlide == 0 ? 'selected' : ''"
+              on="tap:AMP.setState({selectedSlide: 0})"></amp-img>
+            <amp-img src="images/panel.jpg"
+              width="100"
+              height="75"
+              role="button"
+              tabindex="1"
+              [class]="selectedSlide == 1 ? 'selected' : ''"
+              on="tap:AMP.setState({selectedSlide: 1})"></amp-img>
+            <amp-img src="images/cherrybomb.jpg"
+              width="100"
+              height="75"
+              role="button"
+              tabindex="2"
+              [class]="selectedSlide == 2 ? 'selected' : ''"
+              on="tap:AMP.setState({selectedSlide: 2})"></amp-img>
+          </amp-carousel>
+          
+        </div>
+       <div class="gallery">
+        <amp-carousel class="carousel"
+          layout="responsive"
+          height="900"
+          width="700"
+          type="slides"
+          [slide]="selectedSlide"
+            on="slideChange:AMP.setState({selectedSlide: event.index})">
+          <div class="slide">
+            <amp-img src="images/freshcity.jpg"
+              layout="responsive"
+              width="900"
+              height="700"
+              alt="Border Collie"></amp-img>
+            <amp-fit-text layout="responsive"
+              width="800"
+              height="300"> 
+            <div>
+             <h2> <u> Fresh City </u></h2>
+             <p> Ruby on Rails, Multilingual Database</p>
+            </div>
+                <div> 
+                   <a href="https://fresh-city.herokuapp.com/?class=nav-link&locale=en" class="site">Site</a>
+                   <a href="https://github.com/AlfonsoArriola/Fresh_Cityhttps://github.com/AlfonsoArriola/Pokemon_Champions" class="git">Github</a>
+                </div>
+               </amp-fit-text>
+          </div>
+          <div class="slide">
+            <amp-img src="images/panel.jpg"
+              layout="responsive"
+              width="900"
+              height="700"
+              alt="Shetland Sheepdog"></amp-img>
+            <amp-fit-text layout="responsive"
+              width="800"
+              height="300"> 
+            <div>
+               <h2> <u> Bronx School Of Coding </u></h2>
+               <p> Ruby On Rails, Bilingual, Administrator Panel.</p>
+                
+            </div>
+          
+                  <div> 
+                   <a href="https://pams-panel.herokuapp.com/" class="site">Site</a>
+                   <a href="https://github.com/AlfonsoArriola/Pams_panel_x" class="git">Github</a>
+                </div>
+                 
+            </amp-fit-text>
+          </div>
+          <div class="slide">
+            <amp-img src="images/cherrybomb.jpg"
+              layout="responsive"
+              width="900"
+              height="700"
+              alt="Hovawart"></amp-img>
+            <amp-fit-text layout="responsive"
+              width="800"
+              height="300">
+                 <div>
+               <h2> <u> Cherry Bomb Gym </u></h2>
+               <p> Makes API GET requests for Pokemon info.</p>
+                
+            </div>
+          
+                  <div> 
+                   <a href="https://alfonsoarriola.github.io/Pokemon_Champions/" class="site">Site</a>
+                   <a href="https://github.com/AlfonsoArriola/Pokemon_Champions" class="git">Github</a>
+                </div>
+             
+            </amp-fit-text>
+          </div>
+        </amp-carousel>
+             
+     
+       
+     </div>
+     
+   
+  </body>
+</html>
