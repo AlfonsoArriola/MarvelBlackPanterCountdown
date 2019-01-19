@@ -11,14 +11,20 @@ class Booklist extends Component {
 		};
 	}
 
+handleClick = () =>{
+	console.log(`i'm information from the parent container`);
+}
+
+
 	render() {
 		
 		return (
 			<div>
 				<h2> Best selling books </h2>
 				{this.state.books.map(book => (
-					<Book key={book.id} info={book}/>
-					))}				
+					<Book key={book.id} info={book} handleClick= {this.handleClick}/>
+					))}	
+
 			</div>
 		);
 	}
