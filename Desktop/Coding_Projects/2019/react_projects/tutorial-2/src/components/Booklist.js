@@ -11,8 +11,12 @@ class Booklist extends Component {
 		};
 	}
 
-handleClick = () =>{
-	console.log(`i'm information from the parent container`);
+filterData = (id) =>{
+	console.log(id);
+	const sortedBooks = this.state.books.filter(item => item.id !== id);
+	this.setState({
+		books:sortedBooks
+	})
 }
 
 
@@ -22,7 +26,7 @@ handleClick = () =>{
 			<div>
 				<h2> Best selling books </h2>
 				{this.state.books.map(book => (
-					<Book key={book.id} info={book} handleClick= {this.handleClick}/>
+					<Book key={book.id} info={book} deleteItem={()=>this.filterData(book.id)} />
 					))}	
 
 			</div>
