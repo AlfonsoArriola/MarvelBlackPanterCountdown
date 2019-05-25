@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.section_1{
+	grid-area: intro;
+	background: coral;
+
+}
+
+.section_2{
+	grid-area: portrait;
+	background-image: url(images/me_in_a_cell.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.grid_container_main{
+	width: 100vw;
+	display: grid;
+	background: grey;
+	grid-template-areas: 'intro intro portrait';
+
+}
